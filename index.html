@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube </title>
+    <link rel="icon" href="image.png">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            background-color: #181818;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+            background-color: #ff0000;
+            padding: 0 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .video-card {
+            background: #282828;
+            width: 320px;
+            margin: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .thumbnail {
+            width: 100%;
+            height: 180px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 8px;
+        }
+        .description {
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        .watch-btn {
+            background-color: #ff0000;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .footer {
+            background-color: #202020;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">YouTube</div>
+    <div class="main">
+        <div class="video-card">
+            <div class="thumbnail" style="background-image: url('nesmi.png');"></div>
+            <p class="description">Nəsimi haqqında çəkilmiş filmdən məlumdur ki, şairi edam etmədən öncə diri-diri dərisini soyublar.</p>
+            <button class="watch-btn">İzlə</button>
+        </div>
+        <div class="video-card">
+            <div class="thumbnail" style="background-image: url('nizami.jpeg');"></div>
+            <p class="description">Sirlər Xəzinəsi, Xosrov və Şirin, Leyli və Məcnun, Yeddi Gözəl, İsgəndərnamə poemalarının müəllifidir. Şair insanları əsərlərində dürüstlük,</p>
+            <button class="watch-btn">İzlə</button>
+        </div>
+        <div class="video-card">
+            <div class="thumbnail" style="background-image: url('tehmine.png');"></div>
+            <p class="description">Təhminə kimi qadın həyat yoldaşı ola bilməzdi, Zaurun fikrincə. Buna görə də bir zamanlar "sevirəm" deyən Təhminəni əxıaqsız adlandırmaqdan da çəkinmədi. Zaur da Təhminəyə hamının baxdığı kimi baxırdı...</p>
+            <button class="watch-btn">İzlə</button>
+        </div>
+    </div>
+    <div class="footer">&copy; 2025 YouTube Clone | Bütün hüquqlar qorunur</div>
+</body>
+</html>
